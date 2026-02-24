@@ -8,6 +8,8 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  color: #000;
+  font-weight: normal;
 }
 
 h1,
@@ -27,12 +29,21 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
   width: 100%;
 }
 
-button {
-  font: inherit;
+.h2-sections {
+  font-size: 40px;
+  line-height: 47px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link-line {
+  border-bottom: 1px solid #000;
 }
